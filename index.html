@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../res/css/reset.css">
+</head>
+<body>
+	<header class="header">
+	<svg viewbox="0 0 1000 200" class="svg">
+	    <defs>
+			<marker style="overflow:visible" id="Arrow1Lstart" refX="0.0" refY="0.0" orient="auto">
+  				<path transform="scale(0.8) translate(12.5,0)" style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "/>
+			</marker>
+			</defs>
+			<g>
+			<g>
+  				<path class="pa" d="m 353.85883,75.63089 q 0,17.8418 -7.82227,32.34375 -7.73437,14.50195 -20.6543,22.5 -8.96484,5.53711 -20.03906,7.99805 -10.98633,2.46093 -29.00391,2.46093 l -33.04687,0 0,-130.86914 32.69531,0 q 19.16016,0 30.41016,2.8125 11.33789,2.72461 19.16015,7.5586 13.35938,8.34961 20.83008,22.23633 7.47071,13.88671 7.47071,32.95898 z m -18.19336,-0.26367 q 0,-15.38086 -5.36133,-25.92774 -5.36133,-10.54687 -15.9961,-16.61132 -7.73437,-4.39454 -16.43554,-6.06446 -8.70117,-1.75781 -20.83008,-1.75781 l -16.34766,0 0,100.98633 16.34766,0 q 12.56836,0 21.88477,-1.84571 9.40429,-1.8457 17.22656,-6.85546 9.75586,-6.24024 14.58984,-16.43555 4.92188,-10.19531 4.92188,-25.48828 z" />
+  				<path class="pa" d="m 402.26703,190.93362 -17.40234,0 0,-64.07226 -65.30274,0 0,64.07226 -17.40234,0 0,-130.86914 17.40234,0 0,51.32813 65.30274,0 0,-51.32813 17.40234,0 0,130.86914 z" />
+			</g>
+			</g>
+  	</svg>
+  	<nav class="nav">
+  		<ul>
+  			<li>
+  				<a>首页</a>
+  			</li>
+  			<li>
+  				<a>技术</a>
+  			</li>
+  			<li>
+  				<a>个人</a>
+  			</li>
+  			<li>
+  				<a>关于</a>
+  			</li>
+  		</ul>
+  	</nav>
+</header>
+
+<style>
+	/**{margin:0;padding:0;}*/
+	body{min-width:1200px;font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+	.tc{text-align: center;}
+	a,button{cursor:pointer;}
+@keyframes logo {
+	from {stroke-dashoffset: -2000;}
+	to {stroke-dashoffset: 0;}
+}
+.pa{
+	font-size:40px;
+	font-family:sans-serif;
+	letter-spacing:0px;
+	word-spacing:0px;
+	fill:none;
+	stroke-opacity:0.69662923;
+		stroke-width:4;
+		stroke:#14001e;
+		stroke-linecap:butt;
+		stroke-linejoin:round;
+		stroke-dasharray: 2000, 2000;
+		stroke-dashoffset:0;
+		stroke-miterlimit:4;
+  	animation: logo 4s both;
+  }
+
+  .header{height: 380px;overflow: hidden; background: url(../res/images/pattern.png) no-repeat center;position: relative;}
+  .nav{position: absolute;width:624px;top:150px;left:815px;}
+  .nav ul li{display: inline-block; width:150px;height:60px;line-height: 60px;font-size: 16px; text-align: center;color:#b3b3b3; background: rgba(0,0,0,.2)}
+  .nav ul li a{display: inline-block;}
+
+
+</style>
+
+</body>
+</html>

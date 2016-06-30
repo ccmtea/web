@@ -1,0 +1,3 @@
+var head = Vue.extend({
+	
+})

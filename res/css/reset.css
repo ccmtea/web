@@ -1,0 +1,22 @@
+html{-webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+	font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,dl,hr,pre,figure,blockquote{margin:0;}
+fieldset,menu{margin:0;padding:0;}
+a,input,button,select,textarea{outline: none;}
+button{border:none;}
+h1,h2,h3,h4,h5,h6{font-style: normal;}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
+
+img{border-style:none;}
+
+/*  调整ie9-  */
+audio,canvas,progress,video {display: inline-block;}
+
+/*调整谷歌，火狐垂直*/
+progress {vertical-align: baseline;}
+
+
+
+
