@@ -1,5 +1,48 @@
-.dis{display: flex;}
+.header{
+	height: 380px;
+	overflow: hidden;
+	background: url(../images/pattern.png) no-repeat center;
+	position: relative;
+}
+.nav{
+	position: relative;
+	display: flex;
+    justify-content: center;
+    top:50%;
+    margin-top:-30px;
+	font-size:0;}
+.nav ul li{
+	display: inline-block;
+	width:150px;
+	margin-left: 5px;
+	line-height: 60px;
+	color:#fff;
+	background: rgba(0,0,0,.2);
+	transition:background .5s;
+}
+.nav ul li a{
+	display: block;
+}
 
-.pos{position: absolute;display: block;}
+.nav ul li:hover{
+	background: rgba(0,0,0,.3);
+}
+/*header end*/
 
-.cc{background: #fff;}
+.main{
+	width:1200px;
+	padding-top:30px;
+	margin:0 auto;
+}
+.article-list{
+	margin:0 0 10px;
+	border:none;
+	border-top:1px solid #cfcfd2;
+	border-bottom:1px solid #cfcfd2;
+}
+.article-list a{
+	display:block;
+	padding:18px 10px;}
+.article-list .al-left{display: inline-block;}
+
+.article-date
